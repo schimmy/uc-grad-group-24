@@ -1,0 +1,16 @@
+---
+title: "Group 24 UCSB domestic grad enrollment"
+author: "Colin Schimmelfing, Meghan Fletcher"
+date: "11/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(here)
+library(tidyverse)
+
+uc_grad_data <- read_csv(here("data", "ucsb_grad_data.csv"))
+
+
+```
